@@ -1,0 +1,40 @@
+.empresa-form {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inventario-table {
+    margin-bottom: 20px;
+  }
+  
+  .add-product-btn {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .empresa-form {
+      padding: 10px;
+    }
+    .inventario-table {
+      font-size: 14px;
+    }
+    .add-product-btn {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .empresa-form {
+      padding: 5px;
+    }
+    .inventario-table {
+      font-size: 12px;
+    }
+    .add-product-btn {
+      font-size: 12px;
+    }
+  }
